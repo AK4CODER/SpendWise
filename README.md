@@ -1,109 +1,60 @@
-# Expense Tracker Website
-This project is an Expense Tracker Website built using Next.js, Drizzle ORM, PostgreSQL, and Tailwind CSS. The application allows users to create budgets, add expenses, and visualize their spending with a bar chart.
+# 💸 SpendWise – Smart Expense Tracker 💡
 
-# Features
-**Budget Management:** 
+SpendWise is a sleek, modern expense tracking web app built with **Next.js 14**, **TailwindCSS**, **Shadcn/UI**, and **Clerk Authentication**. It helps you manage budgets and expenses efficiently with a beautiful, user-friendly dashboard.
 
-Users can create budgets for different expenses.
+---
 
-**Expense Tracking:** 
+## ✨ Features
 
-Add expenses to each budget and track them effectively.
+- ⚡ Built with **Next.js 14 (App Router)**
+- 🎨 Styled using **TailwindCSS + Shadcn/UI**
+- 🔐 **Clerk Authentication** (Sign In / Sign Up)
+- 📊 Budget and Expense Management Dashboard
+- 📈 Interactive **Bar Chart Visualization**
+- 📦 **Drizzle ORM + PostgreSQL** for database
+- 💡 Light Theme Matching the Brand
+- 🔍 Organized Dashboard: Budgets, Expenses, Overview
+- 🧩 Fully Responsive Design
+- 🚀 Deployed on **Vercel**
 
-**Filtering:** 
+---
 
-View all expenses or filter by specific budgets.
+## 📌 About the Project
 
-**Data Visualization:** 
+SpendWise helps you track your budgets and spending habits in a simple and intuitive way. Whether you're saving up or trying to control daily expenses, SpendWise gives you real-time insights and financial clarity.
 
-A bar chart is provided for visual representation of expenses within each budget.
+---
 
-**Responsive Design:** 
+## 🔗 Live App
 
-The application is fully responsive, ensuring a seamless experience across various devices and screen sizes.
+👉 [Visit SpendWise Live on Vercel](https://spend-wise-woad-omega.vercel.app/)
 
-# Technologies Used
+---
 
-**Next.js:** React framework for building server-side rendered applications.
+## 🛠️ Tech Stack
 
-**Drizzle ORM:** TypeScript ORM for PostgreSQL, providing a type-safe data access layer.
+| Tech         | Description                        |
+|--------------|------------------------------------|
+| Next.js      | React Framework with App Router    |
+| Clerk        | Authentication (Email & Social)    |
+| Drizzle ORM  | Type-safe SQL ORM for PostgreSQL   |
+| PostgreSQL   | Relational Database                |
+| TailwindCSS  | Utility-first CSS framework        |
+| Shadcn/UI    | Accessible component library       |
+| Vercel       | Deployment Platform                |
 
-**PostgreSQL:** Relational database for storing application data.
+---
 
-**Tailwind CSS:** Utility-first CSS framework for designing responsive user interfaces.
+## 🛠️ .env.local Setup
 
-# Getting Started
-To run this project locally, follow these steps:
+Create a `.env.local` file in the root directory and add the following:
 
-**Prerequisites**
+```
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_cHJvLWphd2Zpc2gtMi5jbGVyay5hY2NvdW50cy5kZXYk
+CLERK_SECRET_KEY=sk_test_roVzaKRgxpnju56lSBfP58oM3OpHD9T4C1TXrptQXo
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=http://localhost:3000/sign-in
+NEXT_PUBLIC_CLERK_SIGN_UP_URL=http://localhost:3000/sign-up
+NEXT_PUBLIC_DATABASE_URL=postgresql://postgres:1234@localhost:5432/spendwise_db
+```
 
-Node.js
 
-npm or yarn
-
-PostgreSQL
-
-**Installation**
-
-**1) Clone the repository:**
-
-git clone https://github.com/soumilaggarwal2003/Expense-Tracker
-
-cd expense-tracker
-
-**2) Install dependencies:**
-
-npm install
-**or**
-yarn install
-
-**3) Set up environment variables:**
-
-Create a .env.local file in the root directory.
-
-Add the following environment variables:
-
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
-
-CLERK_SECRET_KEY=
-
-NEXT_PUBLIC_CLERK_SIGN_IN_URL=
-
-NEXT_PUBLIC_CLERK_SIGN_UP_URL=
-
-NEXT_PUBLIC_DATABASE_URL=
-
-**4) Run database migrations:**
-
-npm run db:push
-
-npm run db:studio
-
-**5) Start the development server:**
-
-npm run dev
-**or**
-yarn dev
-
-**6) Open your browser and navigate to:**
-
-http://localhost:3000
-
-# Usage
-
-Create budgets for various expenses.
-
-Add expenses to each budget.
-
-Filter expenses by specific budgets or view all expenses.
-
-Use the bar chart to visualize expenses within each budget.
-
-# Acknowledgements
-Next.js Documentation
-
-Drizzle ORM Documentation
-
-PostgreSQL Documentation
-
-Tailwind CSS Documentation
