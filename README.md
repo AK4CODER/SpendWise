@@ -27,7 +27,7 @@ SpendWise helps you track your budgets and spending habits in a simple and intui
 
 ## 🔗 Live App
 
-👉 Visit SpendWise Live on Vercel:[SpendWise](https://spend-wise-woad-omega.vercel.app/)
+👉 Visit SpendWise Live on Vercel: [SpendWise](https://spend-wise-woad-omega.vercel.app/)
 
 ---
 
