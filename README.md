@@ -45,6 +45,17 @@ SpendWise helps you track your budgets and spending habits in a simple and intui
 
 ---
 
+
+## 🖼️ Screenshots
+
+![Screenshot](https://github.com/user-attachments/assets/969b8c21-4fb0-4fce-bb11-87183fb93ee6)  
+![Screenshot](https://github.com/user-attachments/assets/2c3294ed-3a52-4366-ba95-f7113104bfb3)  
+![Screenshot](https://github.com/user-attachments/assets/521722db-154a-464d-a799-01b250701dc1)  
+![Screenshot](https://github.com/user-attachments/assets/a5f70d68-c4b1-4d37-a772-bec773fa1826)  
+![Screenshot](https://github.com/user-attachments/assets/2731d851-463b-48c5-98fb-478fac9054f3)  
+
+---
+
 ## 🛠️ .env.local Setup
 
 Create a `.env.local` file in the root directory and add the following:
